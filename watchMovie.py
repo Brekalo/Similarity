@@ -50,6 +50,7 @@ movie_titles = [desc.split(":")[0] for desc in movies]
 
 given_movie_description = "When the Hulk becomes too dangerous for the Earth, the Illuminati trick Hulk into a shuttle and launch him into space to a planet where the Hulk can live in peace. Unfortunately, Hulk lands on the planet Sakaar where he is sold into slavery and trained as a gladiator."
 
+# 'try-except' block is added to handle the error
 try:
     similar_movie_title, similar_movie_description = find_similar_movie(given_movie_description, movie_descriptions, movie_titles, nlp)
     print(f"\nWe recommend watching this movie: \"{similar_movie_title}\"")
