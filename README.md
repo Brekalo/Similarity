@@ -3,7 +3,7 @@
 
 # Similarity
 
-#### Find a similar movie
+### Find a similar movie
 
 * find_similar_movie is the main function in this code, which takes in a movie description, a list of movie descriptions, a list of movie titles, and a spaCy language model (NLP), and returns the movie title and description of the movie most similar to the given movie description from the list of movie descriptions. 
 * First, the function preprocesses the movie descriptions by removing stop words and punctuation, lemmatizing the words to be vectorized, and then vectorizing both the given and preprocessed movie descriptions. 
