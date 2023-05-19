@@ -1,5 +1,3 @@
-##### This is Task 25 / Compulsory Task 2
-
 # *Project Name:* Similarity
 ### *Subtitle of the project:* Find a similar movie
 
